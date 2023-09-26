@@ -8,18 +8,18 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Blog Tech</title>
+    <title>Giada's Pizza</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="~/css/mystyle.css" />
+    <link rel="stylesheet" href="~/css/myStyle.css" />
 </head>
 
 <body>
 
-    <header>
+    <header class="header">
 
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg ">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Il mio Tech Blog</a>
+                <a class="navbar-brand" href="#">Giada's Pizza</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -32,7 +32,7 @@
                             <a class="nav-link" href="#">Privacy</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">News</a>
+                            <a class="nav-link" href="Home/UserIndex">User</a>
                         </li>
                     </ul>
                 </div>
@@ -43,38 +43,81 @@
 
 
 
-    <main>
+    <main class="py-4">
 
         <div class="container">
             <div class="row">
                 <div class="col-12">
 
-                    <h1 class="my-5">Lista degli Articoli</h1>
+                    <h1 class="my-5 text-center ms_main_title">ECCO UNA LISTA DI TUTTE LE TUE PIZZE</h1>
 
 
-                    <table class="table">
+                    <table class="table align-middle">
                         <thead>
                             <tr>
                                 <th scope="col">ID</th>
                                 <th scope="col">Immagine</th>
-                                <th scope="col">Titolo</th>
-                                <th scope="col">Descrizione</th>
+                                <th scope="col">Gusto</th>
+                                <th scope="col">Ingredienti</th>
+                                <th scope="col">Prezzo</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <th scope="row">1</th>
-                                <td><img src="https://picsum.photos/id/6/200/200" alt="Immagine scrivania con computer" /></td>
-                                <td>La nuova frontiera di Google Bard</td>
-                                <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</td>
+                                <td scope="row">1</td>
+                                <td>
+                                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.Xlx7oZVd_khsvg4O92O6DgHaE8%26pid%3DApi&f=1&ipt=71dde818b9da4652897afd0bb26d02dc98d01f8f49cd5e1ae1a4102da2c798a8&ipo=images" alt="Immagine di una pizza" />
+                                </td>
+                                <td >Margherita</td>
+                                <td>Pomodoro, Mozzarella, Basilico.</td>
+                                <td>7€</td>
                             </tr>
                             <tr>
-                                <th scope="row">2</th>
+                                <td scope="row">2</td>
                                 <td>
-                                    <img width="200" src="~/img/iphone15.webp" alt="Immagine iPhone 15">
+                                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.Xlx7oZVd_khsvg4O92O6DgHaE8%26pid%3DApi&f=1&ipt=71dde818b9da4652897afd0bb26d02dc98d01f8f49cd5e1ae1a4102da2c798a8&ipo=images" alt="Immagine di una pizza" />
                                 </td>
-                                <td>E' uscito il nuovo iPhone 15</td>
-                                <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</td>
+                                <td>Diavola</td>
+                                <td>Pomodoro, Mozzarella, Salame Piccante.</td>
+                                <td>8€</td>
+                            </tr>
+                            </tr>
+                            <tr>
+                                <td scope="row">3</td>
+                                <td>
+                                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.Xlx7oZVd_khsvg4O92O6DgHaE8%26pid%3DApi&f=1&ipt=71dde818b9da4652897afd0bb26d02dc98d01f8f49cd5e1ae1a4102da2c798a8&ipo=images" alt="Immagine di una pizza" />
+                                </td>
+                                <td>Prosciutto e Funghi</td>
+                                <td>Pomodoro, Mozzarella, Prosciutto, Funghi.</td>
+                                <td>10€</td>
+                            </tr>
+                            </tr>
+                            <tr>
+                                <td scope="row">4</td>
+                                <td>
+                                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.Xlx7oZVd_khsvg4O92O6DgHaE8%26pid%3DApi&f=1&ipt=71dde818b9da4652897afd0bb26d02dc98d01f8f49cd5e1ae1a4102da2c798a8&ipo=images" alt="Immagine di una pizza" />
+                                </td>
+                                <td>Wurstel</td>
+                                <td>Pomodoro, Mozzarella, Wurstel.</td>
+                                <td>8€</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">5</td>
+                                <td>
+                                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.Xlx7oZVd_khsvg4O92O6DgHaE8%26pid%3DApi&f=1&ipt=71dde818b9da4652897afd0bb26d02dc98d01f8f49cd5e1ae1a4102da2c798a8&ipo=images" alt="Immagine di una pizza" />
+                                </td>
+                                <td>Rucola e Grana</td>
+                                <td>Pomodoro, Mozzarella,Rucola, Grana.</td>
+                                <td>10€</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">6</td>
+                                <td>
+                                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.Xlx7oZVd_khsvg4O92O6DgHaE8%26pid%3DApi&f=1&ipt=71dde818b9da4652897afd0bb26d02dc98d01f8f49cd5e1ae1a4102da2c798a8&ipo=images" alt="Immagine di una pizza" />
+                                </td>
+                                <td>Focaccia</td>
+                                <td>Olio, Origano, Sale.</td>
+                                <td>5€</td>
                             </tr>
                         </tbody>
                     </table>
@@ -82,14 +125,11 @@
                 </div>
             </div>
         </div>
-
-
-
     </main>
 
 
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-        <p class="col-md-4 mb-0 text-muted">© 2023 Bryan, Inc</p>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3  border-top">
+        <p class="col-md-4 mb-0 text-muted">© 2023 Giada</p>
 
         <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
             <!-- Inserire Logo Sito -->

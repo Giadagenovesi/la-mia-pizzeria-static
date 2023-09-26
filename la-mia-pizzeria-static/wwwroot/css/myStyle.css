@@ -1,0 +1,33 @@
+﻿body {
+    background-color: #FFE1AA;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: #FFFEEF;
+    height:100px;
+    font-size: 30px;
+}
+
+
+.ms_main_title {
+    color: #E80000;
+    font-weight: bold;
+}
+
+.table td {
+    background-color: #FFC978;
+}
+.table th {
+    background-color: #FFC978;
+    color: #E80000;
+}
+.table img {
+    width: 200px;
+}
+footer {
+    background-color: #FFFEEF;
+    height:80px;
+}
+
+
